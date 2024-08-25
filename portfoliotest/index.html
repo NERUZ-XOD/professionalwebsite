@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Neeraj M</span></h1>
+            <h3 class="typing-text">I'm a <span class="typing"></span></h3>
+            <p>I'm a 17-year-old student currently studying in the 11th standard at Kendriya Vidyalaya Kollam. I have a passion for programming and technology, which has led me to develop this website as a showcase of my skills. My goal is to create innovative and functional solutions, and this portfolio is a step towards demonstrating my capabilities to potential employers and clients. Through continuous learning and hands-on projects, I'm honing my skills to make a mark in the tech world. Explore my work, and let's connect if you have an exciting project in mind!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/neerajm2007/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/NERUZ-XOD" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/NeruzXod7322" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/n_e_r_u_z/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="section-content">
+            <h3 class="section-subheading">Web Development</h3>
+            <p class="section-description">I build dynamic and engaging websites tailored to your needs. My expertise spans across front-end technologies such as HTML, CSS, and JavaScript, as well as back-end development using various frameworks and databases. Whether you need a simple landing page or a complex web application, I ensure that your site is responsive, user-friendly, and optimized for performance.</p>
+            <h3 class="section-subheading">App Development</h3>
+            <p class="section-description">From concept to launch, I create robust and scalable applications that cater to your business objectives. I specialize in both mobile and web app development, leveraging modern frameworks and tools to deliver high-quality solutions. My approach includes thorough planning, user-centric design, and continuous iteration to ensure the final product meets your expectations and adapts to evolving user needs.</p>
+            <h3 class="section-subheading">Technical Support & Maintenance</h3>
+            <p class="section-description">I offer ongoing technical support and maintenance to ensure your website or application remains functional and up-to-date. This includes troubleshooting issues, applying updates, and providing enhancements as needed.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="section-content">
+            <h3 class="section-subheading">Front-End Development</h3>
+            <p class="section-description"> I have a strong foundation in creating visually appealing and interactive user interfaces. My expertise includes crafting well-structured web pages using HTML and CSS, while employing JavaScript to enhance functionality and interactivity. I am also skilled in using React.js to build dynamic, single-page applications that deliver a seamless user experience.</p>
+            <h3 class="section-subheading">Back-End Development</h3>
+            <p class="section-description">My back-end development skills enable me to build robust server-side applications and manage data efficiently. I am proficient in using Node.js and Express.js for server-side programming, and I have experience working with both SQL and NoSQL databases. Additionally, I design and implement RESTful APIs to facilitate communication between different systems and applications.</p>
+            <h3 class="section-subheading">UI/UX Design</h3>
+            <p class="section-description">I focus on delivering intuitive and visually pleasing user experiences. My design process involves creating wireframes and prototypes with tools like Figma and Adobe XD. I also conduct user research and usability testing to ensure that the designs meet user needs and enhance overall satisfaction.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="section-content">
+            <h3 class="section-subheading">My Academic Journey</h3>
+            <p class="section-description">Currently studying in the 11th standard at Kendriya Vidyalaya Kollam, I am focused on advancing my knowledge in technology and programming through practical experience and academic learning.</p>
+            <h3 class="section-subheading">Brototype</h3>
+            <p class="section-description">Brototype has been a pivotal resource in my journey to becoming a skilled developer. This online learning platform has equipped me with a comprehensive understanding of various programming languages and technologies. Through Brototype, I have delved deeply into web development, mastering the essentials of HTML, CSS, and JavaScript, as well as modern frameworks such as React. Additionally, I have explored mobile app development, learning about cross-platform technologies like React Native and gaining practical experience in building applications for both iOS and Android.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="section-content">
+            <h3 class="section-subheading">Personal Projects</h3>
+            <p class="section-description">I have dedicated significant time to personal projects that showcase my skills and passion for development. One of my notable projects is ShadowLog, a habit-tracking application created using Python. This application allows users to monitor their habits and track their progress. Developing ShadowLog involved implementing various features, including user authentication, habit tracking, and data visualization.</p>
+            <h3 class="section-subheading">Open Source Contributions</h3>
+            <p class="section-description">I actively contribute to open-source projects to improve my skills and support the developer community. My contributions have included fixing bugs and enhancing features in various projects. I have also worked on improving documentation to make it more accessible to other developers. These contributions have helped me refine my debugging skills and understand collaborative development practices.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("eTOe8lQuFr_CgYOHI"); // Replace with your EmailJS user ID
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            emailjs.sendForm('service_7t8796n','__ejs-test-mail-service__', this)
+                .then((result) => {
+                    document.getElementById('form-message').textContent = "Message sent successfully!";
+                    this.reset();
+                }, (error) => {
+                    document.getElementById('form-message').textContent = "An error occurred. Please try again.";
+                });
+        });
+    </script>
+</body>
+</html>
